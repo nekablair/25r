@@ -4,12 +4,12 @@
     "name":"25r",
     "description": "A simple Pomodoro timer as an extension",
     "action": {
-        "default_popup": "index.html",
-        "default_icon": {
-            "16": "25r-logo.png",
-            "48": "25r-logo.png",
-            "128": "25r-logo.png"
-        }
-    },
-    "permissions": []
+        "permissions": ["tabs"],
+            "default_popup": "popup.html",
+            "default_icon": {
+                "16": "25r-logo.png",
+                "48": "25r-logo.png",
+                "128": "25r-logo.png"
+            }
+    }
 }
